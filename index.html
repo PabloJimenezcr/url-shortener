@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/index.css" />
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
+    <title>Acortador de url</title>
+</head>
+
+<body>
+    <div class="container">
+        <i class="ri-links-line"></i>
+        <h1>Acortador de url</h1>
+        <label for="orignalUrl">Ingrese la url para acortar:</label>
+        <input type="text" id="originalUrl" placeholder="https://example.com">
+        <div class="buttons">
+            <button id="reloadBtn">Refrescar</button>
+            <button id="shortBtn">Acortar</button>
+        </div>
+        <label for="shortenedUrl">Url acortada:</label>
+        <textarea id="shortenedUrl" rows="3" readonly></textarea>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
